@@ -2,6 +2,17 @@
 name = "rust-fd"
 version = "0.1.0"
 edition = "2024"
+authors = ["atiyil"]
+description = "A fast file finder written in Rust with glob pattern matching"
+license = "MIT"
+repository = "https://github.com/atiyil/rust-fd"
+readme = "README.md"
+keywords = ["cli", "find", "search", "file", "fd"]
+categories = ["command-line-utilities", "filesystem"]
+exclude = [
+    "test_cases/*",
+    ".gitignore",
+]
 
 [dependencies]
 glob = "0.3"
